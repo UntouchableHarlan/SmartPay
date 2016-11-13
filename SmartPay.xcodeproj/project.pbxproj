@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B757261DD8205500B4A505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B757251DD8205500B4A505 /* AppDelegate.swift */; };
+		53B757281DD8205500B4A505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B757271DD8205500B4A505 /* ViewController.swift */; };
+		53B7572B1DD8205500B4A505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B757291DD8205500B4A505 /* Main.storyboard */; };
+		53B7572E1DD8205500B4A505 /* SmartPay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53B7572C1DD8205500B4A505 /* SmartPay.xcdatamodeld */; };
+		53B757301DD8205500B4A505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B7572F1DD8205500B4A505 /* Assets.xcassets */; };
+		53B757331DD8205500B4A505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B757311DD8205500B4A505 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53B757221DD8205500B4A505 /* SmartPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B757251DD8205500B4A505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53B757271DD8205500B4A505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53B7572A1DD8205500B4A505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53B7572D1DD8205500B4A505 /* SmartPay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartPay.xcdatamodel; sourceTree = "<group>"; };
+		53B7572F1DD8205500B4A505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53B757321DD8205500B4A505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53B757341DD8205500B4A505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B7571F1DD8205400B4A505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53B757191DD8205400B4A505 = {
+			isa = PBXGroup;
+			children = (
+				53B757241DD8205500B4A505 /* SmartPay */,
+				53B757231DD8205500B4A505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53B757231DD8205500B4A505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B757221DD8205500B4A505 /* SmartPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B757241DD8205500B4A505 /* SmartPay */ = {
+			isa = PBXGroup;
+			children = (
+				53B757251DD8205500B4A505 /* AppDelegate.swift */,
+				53B757271DD8205500B4A505 /* ViewController.swift */,
+				53B757291DD8205500B4A505 /* Main.storyboard */,
+				53B7572F1DD8205500B4A505 /* Assets.xcassets */,
+				53B757311DD8205500B4A505 /* LaunchScreen.storyboard */,
+				53B757341DD8205500B4A505 /* Info.plist */,
+				53B7572C1DD8205500B4A505 /* SmartPay.xcdatamodeld */,
+			);
+			path = SmartPay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B757211DD8205400B4A505 /* SmartPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B757371DD8205500B4A505 /* Build configuration list for PBXNativeTarget "SmartPay" */;
+			buildPhases = (
+				53B7571E1DD8205400B4A505 /* Sources */,
+				53B7571F1DD8205400B4A505 /* Frameworks */,
+				53B757201DD8205400B4A505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartPay;
+			productName = SmartPay;
+			productReference = 53B757221DD8205500B4A505 /* SmartPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B7571A1DD8205400B4A505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Smarter Apps";
+				TargetAttributes = {
+					53B757211DD8205400B4A505 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 64C4SP29R4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53B7571D1DD8205400B4A505 /* Build configuration list for PBXProject "SmartPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53B757191DD8205400B4A505;
+			productRefGroup = 53B757231DD8205500B4A505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B757211DD8205400B4A505 /* SmartPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53B757201DD8205400B4A505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B757331DD8205500B4A505 /* LaunchScreen.storyboard in Resources */,
+				53B757301DD8205500B4A505 /* Assets.xcassets in Resources */,
+				53B7572B1DD8205500B4A505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B7571E1DD8205400B4A505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B757281DD8205500B4A505 /* ViewController.swift in Sources */,
+				53B757261DD8205500B4A505 /* AppDelegate.swift in Sources */,
+				53B7572E1DD8205500B4A505 /* SmartPay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53B757291DD8205500B4A505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B7572A1DD8205500B4A505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53B757311DD8205500B4A505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B757321DD8205500B4A505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53B757351DD8205500B4A505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53B757361DD8205500B4A505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53B757381DD8205500B4A505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 64C4SP29R4;
+				INFOPLIST_FILE = SmartPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmarterApps.SmartPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53B757391DD8205500B4A505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 64C4SP29R4;
+				INFOPLIST_FILE = SmartPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SmarterApps.SmartPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B7571D1DD8205400B4A505 /* Build configuration list for PBXProject "SmartPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B757351DD8205500B4A505 /* Debug */,
+				53B757361DD8205500B4A505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B757371DD8205500B4A505 /* Build configuration list for PBXNativeTarget "SmartPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B757381DD8205500B4A505 /* Debug */,
+				53B757391DD8205500B4A505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53B7572C1DD8205500B4A505 /* SmartPay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53B7572D1DD8205500B4A505 /* SmartPay.xcdatamodel */,
+			);
+			currentVersion = 53B7572D1DD8205500B4A505 /* SmartPay.xcdatamodel */;
+			path = SmartPay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53B7571A1DD8205400B4A505 /* Project object */;
+}
