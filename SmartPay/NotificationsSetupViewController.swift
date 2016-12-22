@@ -23,7 +23,7 @@ class NotificationsSetupViewController: UITableViewController {
     
     @IBAction func autoClockON(_ sender: AnyObject) {
         
-        let nextButton = UIBarButtonItem(title: "Bext", style: .plain, target: self, action: #selector(nextButtonPressed))
+        let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonPressed))
         
         let finishButton = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(finishedButtonPressed))
         
@@ -40,9 +40,9 @@ class NotificationsSetupViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonPressed))
         
-        
-
+        self.navigationItem.rightBarButtonItem = nextButton
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -68,15 +68,7 @@ class NotificationsSetupViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
+ 
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
