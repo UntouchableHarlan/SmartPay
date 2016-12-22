@@ -9,16 +9,57 @@
 import UIKit
 
 class NotificationsSetupViewController: UITableViewController {
+    
+    func finishedButtonPressed() {
+       // compile all the data
+        
+    }
+    
+    func nextButtonPressed() {
+        // segue to address controller
+        performSegue(withIdentifier: "NotificationToAddress", sender: self.navigationItem.rightBarButtonItem)
+    }
 
+    
+    @IBAction func autoClockON(_ sender: AnyObject) {
+        
+        let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonPressed))
+        
+        let finishButton = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(finishedButtonPressed))
+        
+        let button = sender as! UISwitch
+        if button.isOn {
+            
+            self.navigationItem.rightBarButtonItem = nextButton
+        } else {
+            self.navigationItem.rightBarButtonItem = finishButton
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        
+    }
+    
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
+    
+    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -26,18 +26,13 @@ class PayDatesSetupViewController: UITableViewController {
         //because of the storyboard issues of adding a button to the navigation controller we will add it programatically
         //creates the next button
         
-        if autoClockOnSwitch.isOn {
-            let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(presentNotificationsView) )
-            
-            //sets the button as the right bar button of the view
-            self.navigationItem.rightBarButtonItem = nextButton
-        } else {
-            let finishButton = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(presentNotificationsView) )
-            
-            //sets the button as the right bar button of the view
-            self.navigationItem.rightBarButtonItem = finishButton
-        }
         
+        
+        // let the user clock on and off manually
+        let finishButton = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(presentNotificationsView) )
+        
+        //sets the button as the right bar button of the view
+        self.navigationItem.rightBarButtonItem = finishButton
         
     }
     
