@@ -23,7 +23,7 @@ class NotificationsSetupViewController: UITableViewController {
     
     @IBAction func autoClockON(_ sender: AnyObject) {
         
-        let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonPressed))
+        let nextButton = UIBarButtonItem(title: "Bext", style: .plain, target: self, action: #selector(nextButtonPressed))
         
         let finishButton = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(finishedButtonPressed))
         
