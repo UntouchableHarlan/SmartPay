@@ -16,13 +16,14 @@
 		53B757301DD8205500B4A505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B7572F1DD8205500B4A505 /* Assets.xcassets */; };
 		53B757331DD8205500B4A505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B757311DD8205500B4A505 /* LaunchScreen.storyboard */; };
 		53B7573B1DD8274D00B4A505 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B7573A1DD8274D00B4A505 /* ContentViewController.swift */; };
-		53B7573D1DD82E9800B4A505 /* R8Goals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53B7573C1DD82E9800B4A505 /* R8Goals.jpg */; };
-		53B7573F1DD8385E00B4A505 /* lambo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 53B7573E1DD8385E00B4A505 /* lambo.jpeg */; };
 		53B757631DDA67D700B4A505 /* NameSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B757621DDA67D700B4A505 /* NameSetupViewController.swift */; };
 		53B757671DDA6E9F00B4A505 /* TaxSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B757661DDA6E9F00B4A505 /* TaxSetupViewController.swift */; };
 		53B757691DDA71C700B4A505 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B757681DDA71C700B4A505 /* Job.swift */; };
 		53B7576B1DDA835100B4A505 /* PayDatesSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B7576A1DDA835100B4A505 /* PayDatesSetupViewController.swift */; };
 		53F9BC901DEFC71700328A02 /* JISetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9BC8F1DEFC71700328A02 /* JISetUp.swift */; };
+		64B2EB841E0B54E700D6DF17 /* lambo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64B2EB831E0B54E700D6DF17 /* lambo.jpeg */; };
+		64B2EB861E0B54F400D6DF17 /* R8Goals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64B2EB851E0B54F400D6DF17 /* R8Goals.jpg */; };
+		64B2EBC91E0B5D0300D6DF17 /* SecondFinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2EBC81E0B5D0300D6DF17 /* SecondFinishViewController.swift */; };
 		FC771290659689C676E1992B /* Pods_SmartPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261E3EC597320F593FF6D8AF /* Pods_SmartPay.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,13 +40,14 @@
 		53B757321DD8205500B4A505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53B757341DD8205500B4A505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53B7573A1DD8274D00B4A505 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
-		53B7573C1DD82E9800B4A505 /* R8Goals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = R8Goals.jpg; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/R8Goals.jpg"; sourceTree = "<group>"; };
-		53B7573E1DD8385E00B4A505 /* lambo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lambo.jpeg; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/lambo.jpeg"; sourceTree = "<group>"; };
 		53B757621DDA67D700B4A505 /* NameSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSetupViewController.swift; sourceTree = "<group>"; };
 		53B757661DDA6E9F00B4A505 /* TaxSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxSetupViewController.swift; sourceTree = "<group>"; };
 		53B757681DDA71C700B4A505 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		53B7576A1DDA835100B4A505 /* PayDatesSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayDatesSetupViewController.swift; sourceTree = "<group>"; };
 		53F9BC8F1DEFC71700328A02 /* JISetUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JISetUp.swift; sourceTree = "<group>"; };
+		64B2EB831E0B54E700D6DF17 /* lambo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lambo.jpeg; sourceTree = "<group>"; };
+		64B2EB851E0B54F400D6DF17 /* R8Goals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = R8Goals.jpg; sourceTree = "<group>"; };
+		64B2EBC81E0B5D0300D6DF17 /* SecondFinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondFinishViewController.swift; sourceTree = "<group>"; };
 		7994B87EA7E80B377DF7FC38 /* Pods-SmartPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartPay/Pods-SmartPay.debug.xcconfig"; sourceTree = "<group>"; };
 		F415FCDB80F6ACB8A00F025C /* Pods-SmartPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartPay/Pods-SmartPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,13 +93,14 @@
 				53B7576A1DDA835100B4A505 /* PayDatesSetupViewController.swift */,
 				530D32E61E0B1164004A5CCF /* NotificationsSetupViewController.swift */,
 				536FC57B1DDC1A440064C208 /* DayPickerViewController.swift */,
+				64B2EBC81E0B5D0300D6DF17 /* SecondFinishViewController.swift */,
 				53B757681DDA71C700B4A505 /* Job.swift */,
 				53F9BC8F1DEFC71700328A02 /* JISetUp.swift */,
 				53B757291DD8205500B4A505 /* Main.storyboard */,
 				53B7572F1DD8205500B4A505 /* Assets.xcassets */,
 				53B757311DD8205500B4A505 /* LaunchScreen.storyboard */,
-				53B7573C1DD82E9800B4A505 /* R8Goals.jpg */,
-				53B7573E1DD8385E00B4A505 /* lambo.jpeg */,
+				64B2EB851E0B54F400D6DF17 /* R8Goals.jpg */,
+				64B2EB831E0B54E700D6DF17 /* lambo.jpeg */,
 				53B757341DD8205500B4A505 /* Info.plist */,
 				53B7572C1DD8205500B4A505 /* SmartPay.xcdatamodeld */,
 			);
@@ -185,9 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53B757331DD8205500B4A505 /* LaunchScreen.storyboard in Resources */,
-				53B7573F1DD8385E00B4A505 /* lambo.jpeg in Resources */,
+				64B2EB841E0B54E700D6DF17 /* lambo.jpeg in Resources */,
+				64B2EB861E0B54F400D6DF17 /* R8Goals.jpg in Resources */,
 				53B757301DD8205500B4A505 /* Assets.xcassets in Resources */,
-				53B7573D1DD82E9800B4A505 /* R8Goals.jpg in Resources */,
 				53B7572B1DD8205500B4A505 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +252,7 @@
 			files = (
 				53B7573B1DD8274D00B4A505 /* ContentViewController.swift in Sources */,
 				53B757281DD8205500B4A505 /* ViewController.swift in Sources */,
+				64B2EBC91E0B5D0300D6DF17 /* SecondFinishViewController.swift in Sources */,
 				536FC57C1DDC1A440064C208 /* DayPickerViewController.swift in Sources */,
 				53B757261DD8205500B4A505 /* AppDelegate.swift in Sources */,
 				53B757631DDA67D700B4A505 /* NameSetupViewController.swift in Sources */,
