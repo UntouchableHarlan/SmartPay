@@ -12,10 +12,7 @@ class PayDatesSetupViewController: UITableViewController {
     
     //MARK: - Variables
     
-    @IBOutlet var autoClockOnSwitch: UISwitch!
-    @IBOutlet var autoClockOffSwitch: UISwitch!
-    @IBOutlet var payDayNotificationSwitch: UISwitch!
-    @IBOutlet var clockInClockOutNotificationSwitch: UISwitch!
+
     
     var jobSetUp: JISetUp!
     
