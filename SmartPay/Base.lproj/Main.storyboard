@@ -580,6 +580,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="69O-db-yBf" kind="show" identifier="payFrequencyToPicker" id="Vhj-H5-f80"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -601,6 +604,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="69O-db-yBf" kind="show" identifier="payDayToPicker" id="XVs-0M-xl8"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -622,6 +628,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="69O-db-yBf" kind="show" identifier="payPeriodEndToPicker" id="UAg-Uu-Co9"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -643,6 +652,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="69O-db-yBf" kind="show" identifier="payPeriodStartToPicker" id="oHV-qx-Jte"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -654,12 +666,44 @@
                     </tableView>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
+                        <outlet property="payDayLabel" destination="2yp-gq-S0n" id="grK-Wy-wrN"/>
+                        <outlet property="payFrequencyLabel" destination="S60-0u-dLf" id="QNi-vW-7Sd"/>
+                        <outlet property="payPeriodEndLabel" destination="LIf-C4-TYQ" id="ImD-cB-Ogs"/>
+                        <outlet property="payPeriodStartLabel" destination="FQn-KB-6Hn" id="eUf-cH-ARF"/>
                         <segue destination="GUl-44-dDi" kind="show" identifier="PayDatesToNotifications" id="6Br-Pp-itD"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e6F-Kf-wMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2287" y="125"/>
+        </scene>
+        <!--Day Picker View Controller-->
+        <scene sceneID="gdS-Ev-Uzw">
+            <objects>
+                <tableViewController id="69O-db-yBf" customClass="DayPickerViewController" customModule="SmartPay" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="76e-fW-1fe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="iaw-yt-eh3">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iaw-yt-eh3" id="Lgf-Pj-dU8">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="69O-db-yBf" id="5WP-La-RaG"/>
+                            <outlet property="delegate" destination="69O-db-yBf" id="P9d-5J-aFt"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jmz-ZW-JN4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2286" y="847"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="Uu8-MW-Wez">
@@ -727,4 +771,7 @@
     <resources>
         <image name="R8Goals.jpg" width="1920" height="1200"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Vhj-H5-f80"/>
+    </inferredMetricsTieBreakers>
 </document>
