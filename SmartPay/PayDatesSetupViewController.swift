@@ -26,7 +26,7 @@ class PayDatesSetupViewController: UITableViewController {
         
         
         // let the user clock on and off manually
-        let finishButton = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(presentNotificationsView) )
+        let finishButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(presentNotificationsView) )
         
         //sets the button as the right bar button of the view
         self.navigationItem.rightBarButtonItem = finishButton

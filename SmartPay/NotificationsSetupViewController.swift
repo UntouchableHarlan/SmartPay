@@ -40,9 +40,9 @@ class NotificationsSetupViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonPressed))
         
-        
-
+        self.navigationItem.rightBarButtonItem = nextButton
     }
     
     override func viewWillAppear(_ animated: Bool) {
