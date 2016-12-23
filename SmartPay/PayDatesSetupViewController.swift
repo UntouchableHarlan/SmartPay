@@ -44,6 +44,8 @@ class PayDatesSetupViewController: UITableViewController {
         
         //When the view appears, set all the labels to their correct days. 
         
+        print("\(jobSetUp.payDay)")
+        
         //switch on the different job pay frequencys
         switch jobSetUp.payFrequency {
         case .biWeekly:
@@ -72,6 +74,8 @@ class PayDatesSetupViewController: UITableViewController {
             payDayLabel.textLabel?.text = "Sunday"
         }
         
+        
+        
         //switch on the different pay period end days
         switch jobSetUp.payPeriodEndDay {
         case .monday:
@@ -97,16 +101,17 @@ class PayDatesSetupViewController: UITableViewController {
         case .tuesday:
             payPeriodStartLabel.textLabel?.text = "Tuesday"
         case .wednesday:
-            payDayLabel.textLabel?.text = "Wednesday"
+            payPeriodStartLabel.textLabel?.text = "Wednesday"
         case .thursday:
-            payDayLabel.textLabel?.text = "Thursday"
+            payPeriodStartLabel.textLabel?.text = "Thursday"
         case .friday:
-            payDayLabel.textLabel?.text = "Friday"
+            payPeriodStartLabel.textLabel?.text = "Friday"
         case .saturday:
-            payDayLabel.textLabel?.text = "Saturday"
+            payPeriodStartLabel.textLabel?.text = "Saturday"
         case .sunday:
-            payDayLabel.textLabel?.text = "Sunday"
+            payPeriodStartLabel.textLabel?.text = "Sunday"
         }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -125,15 +130,18 @@ class PayDatesSetupViewController: UITableViewController {
             payFrequencyPickerView.numberOfSections = 0
             payFrequencyPickerView.numberOfRows = payFrequencyPickerView.payPeriods.count
             payFrequencyPickerView.jobSetUp = self.jobSetUp
+            payFrequencyPickerView.currentScreen = .payFrequency
             
             print("Setting up DayPickerViewController for Pay Frequency")
+            
             
         case "payDayToPicker":
             //create a reference to the DayPickerViewController and set its variables to it knows how to set up its view and table
             let payDayPickerView = segue.destination as! DayPickerViewController
             payDayPickerView.numberOfSections = 0
-            payDayPickerView.numberOfRows = payDayPickerView.days.count
+            payDayPickerView.numberOfRows = payDayPickerView.payDays.count
             payDayPickerView.jobSetUp = self.jobSetUp
+            payDayPickerView.currentScreen = .payDay
             
             print("Setting up DayPickerViewController for Pay Day")
             
@@ -141,8 +149,9 @@ class PayDatesSetupViewController: UITableViewController {
             //create a reference to the DayPickerViewcontroller and set its variables so it knows how to set up its view and table
             let payPeriodEndPickerView = segue.destination as! DayPickerViewController
             payPeriodEndPickerView.numberOfSections = 0
-            payPeriodEndPickerView.numberOfRows = payPeriodEndPickerView.days.count
+            payPeriodEndPickerView.numberOfRows = payPeriodEndPickerView.payDays.count
             payPeriodEndPickerView.jobSetUp = self.jobSetUp
+            payPeriodEndPickerView.currentScreen = .payPeriodEnd
             
             print("Setting up DayPickerViewController for Pay Period End Day")
             
@@ -150,8 +159,9 @@ class PayDatesSetupViewController: UITableViewController {
             //create a reference to the DayPickerViewcontroller and set its variables so it knows how to set up its view and table
             let payPeriodStartPickerView = segue.destination as! DayPickerViewController
             payPeriodStartPickerView.numberOfSections = 0
-            payPeriodStartPickerView.numberOfRows = payPeriodStartPickerView.days.count
+            payPeriodStartPickerView.numberOfRows = payPeriodStartPickerView.payDays.count
             payPeriodStartPickerView.jobSetUp = self.jobSetUp
+            payPeriodStartPickerView.currentScreen = .payPeriodStart
             
             print("Setting up DayPickerViewController for Pay Period Start Day")
             
