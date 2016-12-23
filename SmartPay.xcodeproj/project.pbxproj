@@ -23,7 +23,7 @@
 		53F9BC901DEFC71700328A02 /* JISetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9BC8F1DEFC71700328A02 /* JISetUp.swift */; };
 		64B2EB841E0B54E700D6DF17 /* lambo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64B2EB831E0B54E700D6DF17 /* lambo.jpeg */; };
 		64B2EB861E0B54F400D6DF17 /* R8Goals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64B2EB851E0B54F400D6DF17 /* R8Goals.jpg */; };
-		64B2EBC91E0B5D0300D6DF17 /* SecondFinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2EBC81E0B5D0300D6DF17 /* SecondFinishViewController.swift */; };
+		64B2EBC91E0B5D0300D6DF17 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2EBC81E0B5D0300D6DF17 /* AddressViewController.swift */; };
 		FC771290659689C676E1992B /* Pods_SmartPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261E3EC597320F593FF6D8AF /* Pods_SmartPay.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,7 @@
 		53F9BC8F1DEFC71700328A02 /* JISetUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JISetUp.swift; sourceTree = "<group>"; };
 		64B2EB831E0B54E700D6DF17 /* lambo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lambo.jpeg; sourceTree = "<group>"; };
 		64B2EB851E0B54F400D6DF17 /* R8Goals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = R8Goals.jpg; sourceTree = "<group>"; };
-		64B2EBC81E0B5D0300D6DF17 /* SecondFinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondFinishViewController.swift; sourceTree = "<group>"; };
+		64B2EBC81E0B5D0300D6DF17 /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
 		7994B87EA7E80B377DF7FC38 /* Pods-SmartPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartPay/Pods-SmartPay.debug.xcconfig"; sourceTree = "<group>"; };
 		F415FCDB80F6ACB8A00F025C /* Pods-SmartPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartPay/Pods-SmartPay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +93,7 @@
 				53B7576A1DDA835100B4A505 /* PayDatesSetupViewController.swift */,
 				530D32E61E0B1164004A5CCF /* NotificationsSetupViewController.swift */,
 				536FC57B1DDC1A440064C208 /* DayPickerViewController.swift */,
-				64B2EBC81E0B5D0300D6DF17 /* SecondFinishViewController.swift */,
+				64B2EBC81E0B5D0300D6DF17 /* AddressViewController.swift */,
 				53B757681DDA71C700B4A505 /* Job.swift */,
 				53F9BC8F1DEFC71700328A02 /* JISetUp.swift */,
 				53B757291DD8205500B4A505 /* Main.storyboard */,
@@ -252,7 +252,7 @@
 			files = (
 				53B7573B1DD8274D00B4A505 /* ContentViewController.swift in Sources */,
 				53B757281DD8205500B4A505 /* ViewController.swift in Sources */,
-				64B2EBC91E0B5D0300D6DF17 /* SecondFinishViewController.swift in Sources */,
+				64B2EBC91E0B5D0300D6DF17 /* AddressViewController.swift in Sources */,
 				536FC57C1DDC1A440064C208 /* DayPickerViewController.swift in Sources */,
 				53B757261DD8205500B4A505 /* AppDelegate.swift in Sources */,
 				53B757631DDA67D700B4A505 /* NameSetupViewController.swift in Sources */,

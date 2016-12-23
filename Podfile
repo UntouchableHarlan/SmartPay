@@ -7,6 +7,8 @@ target 'SmartPay' do
 
   # Pods for SmartPay
 pod "TextFieldEffects"
+pod 'IQKeyboardManagerSwift'
+
 
 
 end

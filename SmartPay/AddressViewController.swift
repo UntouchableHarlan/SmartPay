@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondFinishViewController: ViewController {
+class AddressViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>IQKeyboardManagerSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SmartPay.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,22 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7B4B070F83A4556B45F1C963E77E22FC</key>
+		<key>00A5E835F4A80960D79EB7462DFA4D38</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8149880334F2B2CC3DBA85724B37A1B1</key>
+		<key>34205C6116CE29BB789B733079C7007C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>82BCB499B30B91F2B0F6FCC505B507B3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AFF96EAFE0BDD0DCB91A987F9BD2FE89</key>
+		<key>4DC059E04CBA98AEDDB5C34E02D551E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

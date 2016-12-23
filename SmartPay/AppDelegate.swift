@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import IQKeyboardManagerSwift
 @available(iOS 10.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         
+        IQKeyboardManager.sharedManager().enable = true
         
         
        
