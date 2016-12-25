@@ -61,7 +61,7 @@ class DayPickerViewController: UITableViewController {
             cellToAddCheckMark?.accessoryType = .checkmark
             tableView.deselectRow(at: index, animated: true)
         } else {
-            x
+            
             //if the screen is not the pay frequency screen but it is one of the other screens that shows weekdays
             var cellArray:[UITableViewCell] = []
             for cell in 0...payDays.count-1 {
