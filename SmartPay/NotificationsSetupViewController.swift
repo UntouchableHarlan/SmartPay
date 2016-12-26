@@ -7,8 +7,12 @@
 //
 
 import UIKit
-
-class NotificationsSetupViewController: UITableViewController {
+import CoreLocation
+class NotificationsSetupViewController: UITableViewController, CLLocationManagerDelegate {
+    @IBOutlet var autoClockOnSwitch: UISwitch!
+    
+    let locationManager: CLLocationManager = CLLocationManager()
+    
     
     func finishedButtonPressed() {
        // compile all the data
@@ -21,21 +25,44 @@ class NotificationsSetupViewController: UITableViewController {
     }
 
     
-    @IBAction func autoClockON(_ sender: AnyObject) {
+    @IBAction func autoClockON(_ sender: UISwitch) {
         
         let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonPressed))
         
         let finishButton = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(finishedButtonPressed))
         
-        let button = sender as! UISwitch
-        if button.isOn {
-            
-            self.navigationItem.rightBarButtonItem = nextButton
+        if sender.isOn {
+            requestLocationAuthorization()
         } else {
-            self.navigationItem.rightBarButtonItem = finishButton
+   
         }
         
+        
+    
+        
+
     }
+
+    func requestLocationAuthorization() {
+        
+        let authorizationStatus = CLLocationManager.authorizationStatus()
+        
+        if authorizationStatus != .authorizedAlways {
+            
+            locationManager.requestAlwaysAuthorization()
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        
+        if status == .authorizedAlways {
+            autoClockOnSwitch.setOn(true, animated: true)
+        } else {
+            autoClockOnSwitch.setOn(false, animated: true)
+        }
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +70,9 @@ class NotificationsSetupViewController: UITableViewController {
         let nextButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonPressed))
         
         self.navigationItem.rightBarButtonItem = nextButton
+        
+        locationManager.delegate = self
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

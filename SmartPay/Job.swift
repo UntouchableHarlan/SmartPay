@@ -28,6 +28,11 @@ class Job {
     var payDay: Day = .friday
     var payPeriodStartDay: Day = .sunday
     var payPeriodEndDay:Day = .saturday
+    var stateForWitholding: StateForWitholding!
+    var exemptFrom: Exemptions!
+    var numberOfFederalAllowences: Int!
+    var additionalFederalWitholding: Double!
+    var filingStatus: FilingStatus!
     
     enum Frequency {
         case weekly
@@ -102,6 +107,11 @@ class Job {
         case federalTax
         case fica
         case medicare
+    }
+    
+    enum FilingStatus {
+        case single
+        case married
     }
     
     func setName(firstName: String, lastName: String) {

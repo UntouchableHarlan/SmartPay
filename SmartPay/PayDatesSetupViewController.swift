@@ -20,17 +20,20 @@ class PayDatesSetupViewController: UITableViewController {
     var jobSetUp: JISetUp!
     
     
+    func finishSetUp(){
+        
+        //This method will complete the set up process. 
+        
+        // create a real job object 
+        var job: Job = Job()
+        
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //because of the storyboard issues of adding a button to the navigation controller we will add it programatically
-        //creates the next button
-        
-        
-        
-        // let the user clock on and off manually
-        let finishButton = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(presentNotificationsView) )
-        
+        let finishButton = UIBarButtonItem(title: "Finish", style: .plain, target: self, action: #selector(finishSetUp) )
         //sets the button as the right bar button of the view
         self.navigationItem.rightBarButtonItem = finishButton
         
@@ -171,15 +174,5 @@ class PayDatesSetupViewController: UITableViewController {
         
         
     }
-    
-    func presentNotificationsView() {
-        //this function will present the job information view controller for set up
-        
-        // The segue is already set up in the storyboard so we just call the method that will perform that segue
-        performSegue(withIdentifier: "PayDatesToNotifications", sender: self.navigationItem.rightBarButtonItem)
-        
-    }
-
-    
     
 }
