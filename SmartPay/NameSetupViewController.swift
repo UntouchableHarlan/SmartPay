@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TextFieldEffects
 
 class NameSetupViewController: UIViewController {
     
@@ -14,6 +15,11 @@ class NameSetupViewController: UIViewController {
     
     @IBOutlet var firstNameTextField: UITextField!
     @IBOutlet var lastNameTextField: UITextField!
+    @IBOutlet var companyName: UITextField!
+    
+    @IBAction func hourlyPay(_ sender: UITextField) {
+        
+    }
     
     // When the user gets to the name setup screen. Create and initailze a JISetUp object to be passed around throughout the set up proccess
     var jobSetUp: JISetUp = JISetUp()

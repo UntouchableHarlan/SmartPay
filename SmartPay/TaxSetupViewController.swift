@@ -8,16 +8,23 @@
 
 import UIKit
 
-class TaxSetupViewController: UIViewController {
+class TaxSetupViewController:  UITableViewController {
     
     // MARK: - Variables
     
-    @IBOutlet var companyNameTextField: UITextField!
-    @IBOutlet var hourlyPay: UITextField!
 
     
     var jobSetUp: JISetUp!
+    @IBOutlet var filingStatusLabel: UILabel!
+    @IBOutlet var stateLabel: UILabel!
+    @IBOutlet var exemptionsLabel: UILabel!
     
+    @IBAction func numberOfAllowencesTextField(_ sender: UITextField) {
+    }
+    @IBAction func witholdingAmountTextField(_ sender: UITextField) {
+    }
+ 
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
