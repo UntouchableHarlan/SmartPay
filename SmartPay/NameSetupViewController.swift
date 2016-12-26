@@ -21,6 +21,18 @@ class NameSetupViewController: UIViewController {
         
     }
     
+    func textField(_ textField: firstNameTextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let allowedCharacters = CharacterSet.letters
+        let characterSet = CharacterSet(charactersIn: string)
+        return allowedCharacters.isSuperset(of: characterSet)
+    }
+    
+    func textField(_ textField: lastNameTextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let allowedCharacters = CharacterSet.letters
+        let characterSet = CharacterSet(charactersIn: string)
+        return allowedCharacters.isSuperset(of: characterSet)
+    }
+    
     // When the user gets to the name setup screen. Create and initailze a JISetUp object to be passed around throughout the set up proccess
     var jobSetUp: JISetUp = JISetUp()
     

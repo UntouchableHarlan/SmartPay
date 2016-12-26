@@ -384,7 +384,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7994B87EA7E80B377DF7FC38 /* Pods-SmartPay.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 64C4SP29R4;
 				INFOPLIST_FILE = SmartPay/Info.plist;
@@ -400,7 +400,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F415FCDB80F6ACB8A00F025C /* Pods-SmartPay.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 64C4SP29R4;
 				INFOPLIST_FILE = SmartPay/Info.plist;
